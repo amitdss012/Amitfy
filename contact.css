@@ -1,0 +1,17 @@
+@media only screen and (max-width: 660px) {
+    ul{
+        padding-top: 20px;
+        background-color: yellow;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        position: absolute;
+        top: 100%;
+        right: -600px;
+        width: 75vw;
+        height: 80vh;
+        transition: all 0.5s ease-in-out;
+      }
+    
+    
+}

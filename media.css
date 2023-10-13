@@ -1,0 +1,171 @@
+@media only screen and (max-width: 1200px) {
+  #hero{
+    background-size: 1400px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  #hero{
+    background-size: 1300px;
+  }
+}
+
+@media only screen and (max-width: 975px) {
+  #hero{
+    background-size: 1200px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #hero{
+    background-size: 1100px;
+  }
+
+  #Shop-discount{
+    font-size: 40px;
+  }
+} 
+
+@media only screen and (max-width: 800px) {
+  #hero{
+    background-size: 1000px;
+  }
+
+  #Shop-discount{
+    font-size: 40px;
+  }
+} 
+
+
+@media only screen and (max-width: 800px) {
+  #hero{
+    height: 60vh;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width: 960px) {
+    .Right{
+        width: 60%;
+    }
+}
+
+
+@media only screen and (max-width: 660px) {
+  .navlinks{
+    flex-direction: row;
+  }
+
+  .xmark{
+    display: block;
+  }
+
+  ul{
+    padding-top: 20px;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);    
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    top: 100%;
+    right: -600px;
+    width: 75vw;
+    height: 80vh;
+    transition: all 0.5s ease-in-out;
+  }
+
+
+  .menuBar{
+    display: block;
+  }
+
+  .Right{
+    width: 20%;
+  }
+
+  .logo{
+    width: 50%;
+  }
+
+  .xmark{
+    color: rgb(63, 12, 158);
+    font-size: 25px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+  }
+  
+
+}
+
+@media only screen and (max-width: 660px) {
+    .Right{
+        width: 30%;
+    }
+}
+
+
+.aagao{
+  right: -90px;
+}
+
+
+@media only screen and (max-width: 660px) {
+  ul{
+    width: 25;
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
+  .allProduct{
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
+  .firsBannner{
+    background-size: 500px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .firsBannner{
+    background-size: 450px;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .firsBannner{
+    background-size: 400px;
+  }
+}
+
+@media only screen and (max-width: 403px) {
+  .imgcontainer  h1{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .singleprduct{
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 335px) {
+  .singleprduct{
+    width: 96%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contactHero p{
+    font-size: 12px;
+  }
+}

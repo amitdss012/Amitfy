@@ -1,0 +1,543 @@
+html , body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+  
+}
+
+#stickyNav{
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+
+.navBar{
+    padding: 0 20px;
+    background-color: aqua;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 20%;
+}
+
+
+
+.logo p{
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul{
+    font-family: sans-serif;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-weight: 700;
+}
+
+.Cart i{
+    color: green;
+}
+
+.Right{
+    position: relative;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.menuBar {
+    display: none;
+}
+
+.menuBar i{
+    color: violet;
+}
+
+.xmark{
+    display: none;
+}
+
+#hero{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 75%;
+    background-image: url("img/hero4.png");
+    background-size: 1600px;
+}
+
+.heroSection{
+    align-self: center;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.heroSection h4{
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.heroSection h2{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+#discount{
+    color: green;
+}
+
+.heroSection p{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 10px;
+    color: gray;
+}
+
+
+.heroSection button{
+    width: 100%;
+    background-color: none;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);    
+    background-size: 100px;
+    border: none;
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 20px;
+    cursor: pointer;;
+}
+
+#feacture{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.feacture-product{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    border: 1px solid black;
+}
+
+
+.productHeader h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#feacture a{
+    color: black;
+    margin-top: 30px;
+}
+.feacture-product p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 5vh;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #E0C3FC;
+    width: 120%;
+    color: rgb(53, 60, 36);
+    font-size: 18px;
+}
+
+
+
+
+
+/* Product contaienr*/
+
+.productContainer{
+    width: 95vw;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.singleprduct{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);    
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: auto;
+}
+
+.productCollection{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.productDetail{
+    padding: 10px;
+}
+
+.singleprduct img{
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 95%;
+    height: 19%;
+}
+
+.productDetail p{
+    font-size: 20px;
+    color: white;
+}
+
+.productDetail h3{
+    font-size: 20px;
+    color: yellow;
+}
+
+
+.productDetail span{
+    font-size: 20px;
+    color: green;
+    margin-right: 200px
+}
+
+.productDetail i{
+    font-size: 22px;
+    color: rgb(12, 77, 12);
+}
+
+
+.imgcontainer{
+    padding: 20px;
+    margin-top: 20px;
+    height: 18vh;
+    background-image: url("./img/banner/b2.jpg");
+    background-size: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgcontainer  h1 {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+.imgcontainer p{
+    padding: 0px;
+    color: white;
+}
+
+.imgcontainer button{
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);    
+}
+
+
+
+.imgcontainer button:hover{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+
+.firsBannner{
+    padding: 20px;
+    margin-top: 20px;
+    height: 28vh;
+    background-image: url("./img/banner/b17.jpg");
+    background-size: 540px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+}
+
+.firsBannner h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.firsBannner span{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.firsBannner p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.firsBannner button{
+    background-color: transparent;
+    margin-top: 20px;
+    border: 1px solid white;
+    height: 50px;
+    width: 180px;
+    color: aquamarine;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.firsBannner button:hover{
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    
+}
+
+.secondBannner{
+    margin-top: 300px;
+    padding: 20px;
+    margin-top: 20px;
+    height: 28vh;
+    background-image: url("./img/banner/b10.jpg");
+    background-size: 540px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+}
+
+.secondBannner button{
+    background-color: transparent;
+    margin-top: 20px;
+    border: 1px solid white;
+    height: 50px;
+    width: 180px;
+    color: aquamarine;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.secondBannner button:hover{
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    
+}
+
+.collectioHeading{
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ourCOllection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.firstCollectionInfo{
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+    height: 30vh;
+    background-image: url('./img/banner/b7.jpg');
+    background-size: 450px;
+}
+
+.firstCollectionInfo h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.firstCollectionInfo p{
+    color: yellow;
+    font-size: 23px;
+}
+
+.JacketColl{
+    background-image: url('./img/banner/b4.jpg');
+}
+
+.hoddiesColl{
+    background-size: 400px;
+    background-image: url("https://m.media-amazon.com/images/I/310haU5WBnL.jpg");
+}
+
+.hoddiesColl h2{
+    color: aqua;
+}
+
+
+
+
+
+/* shop html */
+
+.shopHero{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-image: url("./img/banner/b1.jpg");
+    background-size: 1000px;
+}
+
+
+.shopHero h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.shopHero p{
+    font-size: 30px;
+}
+
+
+
+/* Features html */
+
+.freeshipin{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.freeshipin h1{
+    height: 5vh;
+    text-align: center;
+    width: 90%;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    
+    font-size: 30px;
+}
+
+.freeshipin p{
+    font-family: cursive;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+.onlineOrder h1{
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+}
+
+
+#feac #SaveMoney h1{
+    background-color: yellow;
+}
+
+
+/* contact html */
+
+.contactHero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    height: 30vh;
+    background-image: url('./img/about/banner.png');
+    background-size: 600px;
+}
+
+
+.contactHero h1{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+
+.contactHero p{
+    font-size: 16px;
+}
+
+.addressOffice{
+    background-color: rgb(206, 202, 202);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+.addressOffice h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+.locationAddress{
+    display: flex;
+}
+
+.padd{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#footer{
+    margin-top: 30px;
+}
